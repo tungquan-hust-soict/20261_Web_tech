@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio và trang giới thiệu cá nhân của Tùng Quân - Phong cách tối giản (Minimalism).">
+  <meta name="author" content="Tùng Quân">
+  <meta property="og:title" content="Tùng Quân | Portfolio cá nhân">
+  <meta property="og:description" content="Trang thông tin tổng quát và portfolio cá nhân của Tùng Quân.">
+  <meta property="og:url" content="https://tungquan.id.vn/">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Tùng Quân | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home">TQ<span>.</span></a>
+
+      <nav id="navMenu">
+        <a href="#home">Trang chủ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#skills">Kỹ năng</a>
+        <a href="#projects">Dự án</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeBtn" class="theme-btn" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện">☾</button>
+        <button id="menuBtn" class="menu-btn" aria-label="Mở menu điều hướng">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">TÙNG QUÂN · PERSONAL PROFILE</p>
+          <h1>Xin chào, mình là <span>Tùng Quân</span>.</h1>
+          <p class="hero-desc">
+            Chào mừng bạn đến với không gian cá nhân của mình. Nơi chia sẻ về hành trình phát triển,
+            các kỹ năng công nghệ và những dự án theo đuổi tinh thần <strong>tối giản (Minimalism)</strong>,
+            chú trọng hiệu năng và tính thực tiễn cao.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">Xem dự án</a>
+            <a class="btn secondary" href="#contact">Liên hệ ngay</a>
+          </div>
+
+          <div class="quick-info">
+            <span>📍 Việt Nam</span>
+            <span>🌐 tungquan.id.vn</span>
+            <span>⚡ Luôn sẵn sàng học hỏi & kết nối</span>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal">
+          <div class="photo-ring"></div>
+          <img src="assets/avatar.svg" alt="Ảnh đại diện Tùng Quân" id="profileAvatar">
+          <div class="floating-card">
+            <span class="dot"></span>
+            <div>
+              <strong>Tùng Quân</strong>
+              <small>Building & Growing</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 · ABOUT ME</p>
+          <h2>Giới thiệu & Định hướng</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <div class="card-badge">🎯 Mục tiêu</div>
+            <h3>Kiến tạo giá trị</h3>
+            <p>
+              Xây dựng nền tảng tư duy vững vàng về công nghệ và lập trình.
+              Tập trung giải quyết các bài toán thực tế bằng các giải pháp tinh gọn,
+              tối ưu và dễ bảo trì.
+            </p>
+          </div>
+
+          <div class="about-card reveal">
+            <div class="card-badge">🧭 Định hướng</div>
+            <h3>Phát triển chuyên môn</h3>
+            <p>
+              Không ngừng cập nhật xu hướng công nghệ mới, hoàn thiện kỹ năng
+              phát triển hệ thống, thiết kế giao diện hiện đại và quản lý quy trình
+              làm việc chuyên nghiệp.
+            </p>
+          </div>
+
+          <div class="about-card reveal">
+            <div class="card-badge">💡 Phong cách</div>
+            <h3>Chủ nghĩa Tối giản</h3>
+            <p>
+              Tối giản trong thiết kế, mạch lạc trong tư duy và sạch gọn trong từng dòng code.
+              Ưu tiên tốc độ phản hồi nhanh, tính trực quan và sự thuận tiện tối đa cho người dùng.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 · SKILLS</p>
+          <h2>Kỹ năng & Lĩnh vực</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">DEV</div>
+            <h3>Lập trình & Web</h3>
+            <p>Xây dựng giao diện web chuẩn responsive, tối ưu tốc độ tải và trải nghiệm tương tác mượt mà.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">SYS</div>
+            <h3>Hệ thống & Đám mây</h3>
+            <p>Cấu hình DNS, quản lý hosting, triển khai ứng dụng trên GitHub Pages, Vercel và Cloudflare.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">DATA</div>
+            <h3>Dữ liệu & Logic</h3>
+            <p>Tư duy cấu trúc dữ liệu khoa học, tối ưu thuật toán và quản lý thông tin hiệu quả.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">GIT</div>
+            <h3>Công cụ & Quy trình</h3>
+            <p>Git, GitHub, quản lý phiên bản mã nguồn, tự động hóa tác vụ và tinh thần làm việc nhóm.</p>
+          </article>
+        </div>
+
+        <div class="tags reveal">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>Git / GitHub</span>
+          <span>Cloudflare</span>
+          <span>Web Hosting</span>
+          <span>DNS Management</span>
+          <span>Responsive Design</span>
+          <span>Minimalism</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 · PROJECTS</p>
+          <h2>Dự án nổi bật</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured reveal">
+            <div class="project-top">
+              <span class="project-number">01</span>
+              <span class="project-type">PERSONAL PROJECT</span>
+            </div>
+            <h3>Website Cá Nhân tungquan.id.vn</h3>
+            <p>
+              Website portfolio cá nhân được thiết kế theo trường phái Minimalism,
+              tối ưu hóa 100% thời gian tải trang, hỗ trợ Dark/Light mode và triển khai
+              tự động trên hạ tầng đám mây kèm chứng chỉ bảo mật SSL.
+            </p>
+            <div class="project-tags">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>GitHub Pages</span>
+              <span>Custom DNS</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-number">02</span>
+              <span class="project-type">WEB APPLICATION</span>
+            </div>
+            <h3>Ứng dụng Quản lý & Tác vụ Tiện ích</h3>
+            <p>
+              Bộ giải pháp web hỗ trợ theo dõi tiến độ công việc, ghi chú thông minh
+              và trực quan hóa thông tin với giao diện gọn gàng, thân thiện.
+            </p>
+            <div class="project-tags">
+              <span>Frontend</span>
+              <span>Local Storage</span>
+              <span>UI/UX</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-number">03</span>
+              <span class="project-type">AUTOMATION</span>
+            </div>
+            <h3>Hệ thống Tự động hóa & Công cụ Hỗ trợ</h3>
+            <p>
+              Xây dựng các kịch bản script xử lý dữ liệu tự động, tối ưu hóa quy trình làm việc
+              và tiết kiệm thời gian vận hành.
+            </p>
+            <div class="project-tags">
+              <span>Automation</span>
+              <span>Python</span>
+              <span>API Integration</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-number">04</span>
+              <span class="project-type">LEARNING & LABS</span>
+            </div>
+            <h3>Kho tài nguyên & Nghiên cứu Công nghệ</h3>
+            <p>
+              Không gian lưu trữ các bài thực hành, thử nghiệm công nghệ mới và
+              các giải pháp kỹ thuật đúc kết từ thực tiễn.
+            </p>
+            <div class="project-tags">
+              <span>Research</span>
+              <span>Clean Code</span>
+              <span>Best Practices</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div class="contact-left">
+            <p class="eyebrow">04 · CONTACT</p>
+            <h2>Cùng kết nối và trao đổi?</h2>
+            <p>Mình luôn cởi mở đón nhận những cơ hội hợp tác mới, học hỏi và trao đổi kinh nghiệm chuyên môn.</p>
+          </div>
+
+          <div class="contact-links">
+            <a class="contact-btn primary-contact" href="mailto:contact@tungquan.id.vn" id="emailLink">
+              ✉ contact@tungquan.id.vn
+            </a>
+            <div class="contact-sublinks">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">⌥ GitHub</a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">◈ LinkedIn</a>
+              <a href="#home">↑ Đầu trang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 <strong>Tùng Quân</strong> · <a href="https://tungquan.id.vn">tungquan.id.vn</a></span>
+      <span>Được xây dựng với phong cách Tối giản (Minimalism)</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
